@@ -22,8 +22,8 @@ const Team = () => {
         <Link href="/" className="logo">logo</Link>
 
         <nav className="navbar">
-          <Link href="/index.html" style={{ "--i": 1 }}>Home</Link>
-          <Link href="/team.html" style={{ "--i": 2 }} className="active">About</Link>
+          <Link href="/" style={{ "--i": 1 }}>Home</Link>
+          <Link href="/about" style={{ "--i": 2 }} className="active">About</Link>
           <Link href="#" id="teamLink" style={{ "--i": 3 }}>Team</Link>
           <Link href="#register" style={{ "--i": 4 }}>Register</Link>
           <Link href="#" id="loginButton" style={{ "--i": 5 }}>Login</Link>

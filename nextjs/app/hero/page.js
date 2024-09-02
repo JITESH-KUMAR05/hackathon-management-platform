@@ -7,6 +7,7 @@ import 'boxicons/css/boxicons.min.css';
 function Hero() {
   return (
     <div className="w-[100vw] h-screen overflow-y-hidden">
+      
       <header className="header">
         <a href="#" className="logo">logo</a>
 
@@ -45,6 +46,7 @@ function Hero() {
 
         <div className="rhombus2"></div>
       </section>
+
     </div>
   );
 }
